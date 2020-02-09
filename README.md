@@ -13,6 +13,7 @@ Choosing the `get all` mode will give you the full list of participants with the
 
 Choosing the `page limit` mode will also turn on the GITHUB CHECKER: 
 It will check if user with the same name in 'USERNAME' coloumn exists on GitHub and will give you the full list of participants plus extra coloumns: 'GITHUB LINK', 'GITHUB LOCATION', 'GITHUB EMAIL', 'GITHUB COMPANY' if such user exists and 'null' if not.
+Remember about the [GitHub API Rate limiting](https://developer.github.com/v3/#rate-limiting).
 
 This script requiers [Python3](https://www.python.org/), [Requests module](https://2.python-requests.org/en/master/).
 
