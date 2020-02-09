@@ -21,7 +21,7 @@ This script requiers [Python3](https://www.python.org/), [Requests module](https
 
 [Create your token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
 
-Just copy your token directly into the code (search for the comment marker in the code):
+Just copy your token directly into the code in `Line 138` (search for the comment marker in the code):
 
 `headers = {"Authorization": "Token " +  "yourabcdefgh0123token"}`
 
